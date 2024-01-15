@@ -1,5 +1,7 @@
 We will go over each of the left panels. Now is a good time to remember that you can press `1-5` to move focus to specific panels.
 
+\* - Each panel has many actions available. I'm only going to list the most notable ones. You can press `?` to see all the actions available on the panel you are in.
+
 # 1. Status
 The top-left most panel. This panel shows you the git repo you are in, the current branch, and the overall status of your repo.
 - `↑` - number of commits ahead of remote
@@ -9,7 +11,7 @@ The top-left most panel. This panel shows you the git repo you are in, the curre
 
 - [ ] #screenshot of panel 1 with commits ahead and behind
 
-Additionally, it has a few cool actions:
+## Actions\*
 - `e` - [[edit lazygit configuration file]]
 - `ctrl+r` - [[switch to a recent git repo]]
 
@@ -28,8 +30,11 @@ It shows a list of files that have changes which have not yet been commited to t
     - 'M' - modified
     - 'D' - deleted
 
-## Use
-This panel is useful for staging, unstaging, and committing files. The default action (`spacebar`) will toggle the staged status of the file.
+## Actions\*
+This panel is useful for staging, unstaging, and committing files.
+
+### Default Action
+The default action (`spacebar`) will toggle the staged status of the file.
 
 # 3. Local branches
 This panel shows you:
@@ -38,9 +43,13 @@ This panel shows you:
 - the status (`↑`/`↓`) relative to the remote branch
 - [ ] #screenshot of panel 3 with commits ahead and behind
 
-## Use
-This panel is useful for checking out branches. The default action (`spacebar`) will checkout the branch. Panel "4. Commits" will change to show the commits on that branch.
+## Actions\*
+This panel is useful for checking out branches.
 
+### Default Action
+The default action (`spacebar`) will checkout the branch. Panel "4. Commits" will change to show the commits on that branch.
+
+### Drill-down
 If you want to look at the commits on a branch, without checking it out, you can press `enter` to "drill-down" into the branch.
 The panel will change to show you the commits on that branch. If you "drill-down" into a commit, the panel will change to show you the files that were changed in that commit.
 - [ ] #screenshot of panel 3 "drill-down"-ed into the commits. Show how this is different from panel 4.
@@ -50,7 +59,19 @@ This panel shows the commits, for the currently checked out branch, with most re
 
 - [ ] #screenshot of panel 4
 
+## Actions\*
+### Default Action
+The default action (`spacebar`) will checkout the commit.
+
+- [ ] #describe how the other panels react to this action
+
 # 5. Stash
 This panel shows the stash stack, with most recent first.
 
 - [ ] #screenshot of panel 5
+
+## Actions\*
+### Default Action
+The default action (`spacebar`) will apply the stash.
+
+- [ ] #describe how the other panels react to this action
