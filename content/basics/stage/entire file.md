@@ -13,4 +13,4 @@ title: "Stage: Entire File"
 - [ ] Add #screenshot of Files panel with multiple staged and unstaged files
 
 ## Related commands
-- `d` - [[lazygit/danger/Permanently Delete a File]]
+- `d` - [[Permanently Delete a File]]
