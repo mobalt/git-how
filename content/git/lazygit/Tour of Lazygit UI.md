@@ -17,3 +17,26 @@ The 5 Left Panels are:
 4. Commits
 5. Stash
 
+### Movement and Actions
+The panel in focus will be highlighted with a colored border. You can move between the panels with:
+- the `left` and `right` arrow keys (or `h` and `l` for vim fans)
+- `tab` and `shift+tab`
+- the number keys `1-5`, corresponding to the panel number
+
+Inside all panels, you can do the following actions:
+- you can hover over items with `up` and `down` arrow keys (or `k` and `j` for vim fans)
+- filter the items shown with `/`
+  - `esc` to canel the filter
+  - `enter` to keep the filter
+- press `?`, for a help menu of all available actions on this panel
+  - Each panel has different actions available.
+  - Don't forget to use `/` to filter the help menu!
+- press `enter` to "drill-down" into an item.
+    - The specifics of what happens when you "drill-down" will depend on the panel you are in, and what item you have selected.
+    - Press `esc` to go back, i.e., "drill-up"
+- press `spacebar` to perform default action on an item.
+    - on **2. Files** panel, this will toggle the staged status of the file
+    - on **3. Local branches** panel, this will checkout the branch
+    - on **4. Commits** panel, this will checkout the commit
+    - on **5. Stash** panel, this will apply the stash
+- press `page down`/`page up` - to scroll the context-aware details in the **Main Section**
