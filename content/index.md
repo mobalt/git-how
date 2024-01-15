@@ -40,12 +40,17 @@ Inside all panels, you can do the following actions:
 - press `enter` to "drill-down" into an item.
     - The specifics of what happens when you "drill-down" will depend on the panel you are in, and what item you have selected.
     - Press `esc` to go back, i.e., "drill-up"
-- press `spacebar` to perform default action on an item.
+- press `spacebar` to perform **default action** on an item.
     - on **2. Files** panel, this will toggle the staged status of the file
     - on **3. Local branches** panel, this will checkout the branch
     - on **4. Commits** panel, this will checkout the commit
     - on **5. Stash** panel, this will apply the stash
 - press `page down`/`page up` - to scroll the context-aware details in the **Main Section**
+
+### Mouse
+Also, the mouse works. Click on any panel or item, to jump focus to it. Double-click to do the **default action** *(as per above)*.
+
+- [ ] Add #svg of cute mouse icon.
 
 ## Main Section *(Context-Aware)*
 The main section is context-dependent, and the information it shows you will depend on what you focused on in the left panels.
