@@ -1,5 +1,7 @@
 ---
 title: Basics of Lazygit
+aliases:
+  - lazygit/Overview of Lazygit
 ---
 To run lazygit, you first need to `cd` into a git repository. Then, you can run lazygit by simply typing `lazygit` into your terminal:
 ```bash
