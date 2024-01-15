@@ -40,3 +40,17 @@ Inside all panels, you can do the following actions:
     - on **4. Commits** panel, this will checkout the commit
     - on **5. Stash** panel, this will apply the stash
 - press `page down`/`page up` - to scroll the context-aware details in the **Main Section**
+
+### Main Section *(Context-Aware)*
+The main section is context-dependent, and the information it shows you will depend on what you focused on in the left panels.
+
+So for example, if you are focused on **2. Files** panel, and you move the cursor over a file.
+- If the file is staged, then the main section will show one panel **"Staged changes"** with a diff of what you will be committing.
+  - [ ] #screenshot of "Staged changes" panel
+
+- If the file is unstaged, then the main section will show one panel **"Unstaged changes"** with a diff of what you have changed since your last commit.
+  - [ ] #screenshot of "Unstaged changes" panel
+
+- If the file is partially staged, then the main section will show two panels **"Unstaged changes"** and **"Staged changes"** each with a corresponding diff.
+  - [ ] #screenshot of "Staged changes" and "Unstaged changes" panels
+
