@@ -1,9 +1,13 @@
+---
+title: Basics of Lazygit
+---
 To run lazygit, you first need to `cd` into a git repository. Then, you can run lazygit by simply typing `lazygit` into your terminal:
 ```bash
 cd ./to/location/of/git-repo
 lazygit
 ```
 
+# Lazygit UI
 Now you will see the lazygit UI. It will look something like this:
 - [ ] #screenshot of lazygit UI
 
@@ -17,7 +21,7 @@ The 5 Left Panels are:
 4. Commits
 5. Stash
 
-### Movement and Actions
+## Movement and Actions
 The panel in focus will be highlighted with a colored border. You can move between the panels with:
 - the `left` and `right` arrow keys (or `h` and `l` for vim fans)
 - `tab` and `shift+tab`
@@ -41,7 +45,7 @@ Inside all panels, you can do the following actions:
     - on **5. Stash** panel, this will apply the stash
 - press `page down`/`page up` - to scroll the context-aware details in the **Main Section**
 
-### Main Section *(Context-Aware)*
+## Main Section *(Context-Aware)*
 The main section is context-dependent, and the information it shows you will depend on what you focused on in the left panels.
 
 So for example, if you are focused on **2. Files** panel, and you move the cursor over a file.
@@ -54,6 +58,6 @@ So for example, if you are focused on **2. Files** panel, and you move the curso
 - If the file is partially staged, then the main section will show two panels **"Unstaged changes"** and **"Staged changes"** each with a corresponding diff.
   - [ ] #screenshot of "Staged changes" and "Unstaged changes" panels
 
-## Suggested Workflow for Learning Lazygit
+# Suggested Workflow for Learning Lazygit
 1. The concepts and shortcuts above are the **minimal set** of knowledge you need to **memorize** to use lazygit comfortably. But once you do, lazygit will rock your world and will become your daily driver for git.
 2. For the rest of the tasks in lazygit, don't make a concerted effort to memorize them. Just keep a tab open to this site, and look up stuff as needed. Do them enough times, and you'll naturally develop muscle memory for them. After a while, you'll find yourself using lazygit for more and more tasks, and you'll find yourself looking up stuff less and less.
