@@ -7,8 +7,7 @@ This is a guide on how to merge a branch called **"featureA"** into **"main"** b
 
 
 # Lazygit
-**What?** Merge **"featureA"** into **"main"** branch
-1. Press `3`  to go to [[3. Local Branches]] panel, **Local Branches** tab
+1. Press `3`  to go to [[3. Local Branches]] panel
 2. Press `↓`/`↑` (or `single click`) to hover over **"main"** branch
 3. Press `space` (or `double click`) to checkout **"main"** branch
 4. Press `↓`/`↑` (or `single click`) to hover over **"featureA"** branch
