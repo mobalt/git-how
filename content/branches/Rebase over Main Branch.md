@@ -6,14 +6,14 @@ tags:
 This is a guide on how to rebase a branch called **"feature"** over **"main"** branch.
 
 # Lazygit
-1. Press `3`  to go to [[3. Local Branches]] panel
-2. Press `↓`/`↑` (or `single click`) to hover over **"feature"** branch
-3. Press `space` (or `double click`) to checkout **"feature"** branch
-4. Press `↓`/`↑` (or `single click`) to hover over **"main"** branch
-5. Press `r` to rebase **"feature"** branch (which is still currently checked out) over **"main"** branch
-6. Press `enter` to continue
-    - [ ] Add #screenshot of rebase confirmation prompt
-7. Resolve any [[merge conflicts]], if any. See [[Resolving Merge Conflicts]]
+1. Press `3`  to go to [[3. Local Branches]] panel.
+2. Select the **feature** branch (using `↓`/`↑`/🖱️).
+3. Check out the **feature** branch (press `space`).
+4. Select the **main** branch (using `↓`/`↑`/🖱️).
+5. Press `r` to rebase the **feature** branch over **main** branch.
+6. Press `enter` to continue.
+    - [ ] Add #screenshot of rebase confirmation prompt.
+7. Resolve any [[merge conflicts]], if any.
     - [ ] Add #screenshot of **Auto-merge failed** notification
 
 # Basic Terminal
@@ -46,3 +46,6 @@ git add <file>
 ```bash
 git rebase --continue
 ```
+
+# See Also
+- [[Resolving Merge Conflicts]]
