@@ -5,9 +5,8 @@ tags:
 ---
 # Lazygit
 1. Press `3`  to go to [[3. Local Branches]] panel
-2. Select a branch, using `↓`/`↑`, or click on it.
-3. *(optional)* Filter the branches by pressing `/`
-4. Checkout a branch , by pressing `space`
+2. Select a branch (using `↓`/`↑`/🖱️)
+3. Checkout the branch, by pressing `space`
     - Now the branch should have a star, to the left
 
 - [ ] Add a #screenshot of the star, from checked out branch
