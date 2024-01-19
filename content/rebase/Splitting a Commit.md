@@ -1,88 +1,72 @@
-# Basic Terminal
-## Last Commit
-1. Be familiar with [[Preparing to Modify History]]
-2. Undo your last commit:
-```bash
-git reset HEAD~
-# is equivalent to
-git reset HEAD~ --mixed
-# which clears the commit, the stage, but leaves the working directory alone
-```
-3. Stage the changes you want for your first commit
-```bash
-git add <file1> <file2> <file3>
-# or
-git add -p <file1> # to stage specific lines
-```
-4. Commit your first commit
-```bash
-git commit -m "First commit"
-# or
-git commit # to open your default $EDITOR
-```
-5. Repeat steps 3 and 4 for your second commit, and any additional commits you want to make.
-6. Make sure there are no uncommitted changes left in your working directory
-```bash
-git status # should be empty of changes
-```
-7. If you stashed changes, you can get them back
-```bash
-git stash pop
-```
+# Splitting a Commit
 
-## Deeper Commit
-1. Be familiar with [[Preparing to Modify History]]
-2. Copy the SHA of the commit you want to split
-```bash
-git log --oneline --graph
-```
-3. Do an interactive rebase, starting from the commit before the one you want to split
-```bash
-git rebase -i <commit-before-the-one-you-want-to-split>
-# or
-git rebase -i <commit-you-want-to-split>~
-# or
-git rebase -i <commit-you-want-to-split>^
-```
-4. This will open your default $EDITOR with a list of commits, and the default rebase action for each commit is `pick`
-```
-pick 9f8f3f0 Commit 1
-pick 3f8f3f0 Commit 2
-pick 1f8f3f0 Commit you want to Split
-```
-5. Change the action for the commit you want to split to `edit`
-```
-pick 9f8f3f0 Commit 1
-pick 3f8f3f0 Commit 2
-edit 1f8f3f0 Commit you want to Split
-```
-6. Save and close the file. This will rewind your working directory to just after the commit you want to split.
-7. Undo the commit you want to split
-```bash
-git reset HEAD~
-```
-8. Stage the changes you want for your first commit
-```bash
-git add <file1> <file2> <file3>
-# or
-git add -p <file1> # to stage specific lines
-```
-9. Commit your first commit
-```bash
-git commit -m "First commit"
-# or
-git commit # to open your default $EDITOR
-```
-10. Repeat steps 3 and 4 for your second commit, and any additional commits you want to make.
-11. Make sure there are no uncommitted changes left in your working directory
-```bash
-git status # should be empty of changes
-```
-12. Now you'll want the interactive rebase to finish by replaying the rest of the commits
-```bash
-git rebase --continue
-```
-13. If you stashed changes, you can get them back
-```bash
-git stash pop
-```
+## Introduction
+Splitting a commit in Git allows you to divide changes from a single commit into multiple smaller commits. This can be useful for improving clarity, managing the scope of changes, or refining your project's history. This guide covers how to split the last commit or a deeper commit in the history.
+
+## Basic Terminal
+### Splitting the Last Commit
+1. **Undo the Last Commit:**
+   ```bash
+   git reset HEAD~
+   # Retains changes in the working directory
+   ```
+2. **Stage Changes for the First New Commit:**
+   ```bash
+   git add <file1> <file2> <file3>
+   # or
+   git add -p <file> # for specific lines
+   ```
+3. **Create the First New Commit:**
+   ```bash
+   git commit -m "First commit"
+   # or use your default editor
+   ```
+4. **Repeat Staging and Committing:**
+   - Repeat for the second commit and any additional commits.
+5. **Check for Uncommitted Changes:**
+   ```bash
+   git status # Should show no remaining changes
+   ```
+6. **Retrieve Stashed Changes (if any):**
+   ```bash
+   git stash pop
+   ```
+
+### Splitting a Deeper Commit
+1. **Copy the SHA of the Commit to Split:**
+   ```bash
+   git log --oneline --graph
+   ```
+2. **Start an Interactive Rebase:**
+   ```bash
+   git rebase -i <commit-before-the-one-to-split>^
+   ```
+3. **Change Action to `edit` for the Target Commit:**
+   ```
+   edit 1f8f3f0 Commit you want to Split
+   ```
+4. **Undo the Commit to Split:**
+   ```bash
+   git reset HEAD~
+   ```
+5. **Stage and Commit the First Part:**
+   ```bash
+   git add <file1> <file2> <file3>
+   git commit -m "First part of split commit"
+   ```
+6. **Repeat for Subsequent Parts:**
+7. **Finalize with No Uncommitted Changes:**
+   ```bash
+   git status # Ensure no changes are left
+   ```
+8. **Continue the Rebase:**
+   ```bash
+   git rebase --continue
+   ```
+9. **Retrieve Stashed Changes (if any):**
+   ```bash
+   git stash pop
+   ```
+
+## Conclusion
+Splitting a commit into multiple commits allows for a cleaner, more manageable history. This is a powerful technique in Git and can be particularly useful for organizing large commits into smaller, more understandable updates. Remember to be cautious when rewriting history, especially in shared branches or public repositories.
