@@ -1,3 +1,7 @@
+---
+tags:
+  - fix/audit
+---
 # Introduction
 Removing a submodule from a Git repository involves more than just deleting the submodule's directory. It requires changes to the Git configuration and index. This guide will walk you through the steps to properly remove a submodule using Lazygit and the basic terminal.
 

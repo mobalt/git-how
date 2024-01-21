@@ -1,6 +1,7 @@
 ---
 tags:
   - panel/4
+  - fix/audit
 ---
 # Introduction
 Git bisect is a vital tool for diagnosing the introduction of issues in your codebase. This guide covers how to use git bisect both in Lazygit and through the basic terminal, offering flexibility depending on your preferred workflow.

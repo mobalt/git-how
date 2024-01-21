@@ -1,3 +1,7 @@
+---
+tags:
+  - fix/audit
+---
 # Introduction
 Changing the URL of a Git submodule is necessary when the source repository of the submodule has been moved or you need to switch to a different fork or version. This guide will explain how to update the submodule URL in both Lazygit and using standard Git commands.
 

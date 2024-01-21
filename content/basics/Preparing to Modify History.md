@@ -1,4 +1,7 @@
 ---
+tags:
+  - fix/audit
+---
 # Introduction
 Modifying Git history is a powerful but delicate process. It's essential to understand the practical steps for a safe modification and the implications, especially when collaborating with others.
 

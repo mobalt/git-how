@@ -1,6 +1,7 @@
 ---
 tags:
   - panel/3
+  - fix/audit
 ---
 # Introduction
 This tutorial demonstrates how to forcefully check out a branch using Lazygit, resulting in the loss of all local changes. This is a useful technique when you need to quickly switch to a different branch and you're certain that the uncommitted changes in your current branch are unnecessary or can be discarded.

@@ -1,6 +1,7 @@
 ---
 tags:
   - panel/2
+  - fix/audit
 ---
 # Introduction
 Reverting uncommitted changes in Git is a common task, useful for undoing recent modifications that you don't want to keep. This guide will help you understand how to revert these changes using both Lazygit and Git commands.

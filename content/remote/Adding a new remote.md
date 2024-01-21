@@ -1,5 +1,6 @@
 ---
-tags: []
+tags:
+  - fix/audit
 ---
 # Introduction
 This guide explains how to add a new remote repository in Git using Lazygit. This is particularly useful when you need to track multiple remote repositories or when you set up a new remote repository.

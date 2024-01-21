@@ -1,6 +1,7 @@
 ---
 tags:
   - panel/5
+  - fix/audit
 ---
 # Introduction
 This tutorial guides you through the process of deleting a stash in Lazygit. This action is useful when you want to clean up your stash list by removing entries that are no longer needed.

@@ -1,6 +1,7 @@
 ---
 tags:
   - panel/4
+  - fix/audit
 ---
 # Introduction
 Opening a pull request is a key step in collaborative coding workflows. Lazygit simplifies this process by integrating directly with your web browser. This guide will demonstrate how to open a pull request from Lazygit.

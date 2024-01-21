@@ -1,3 +1,7 @@
+---
+tags:
+  - fix/audit
+---
 # Introduction
 Writing good commit messages is an essential practice in collaborative software development. It not only helps in understanding the changes made but also facilitates effective communication among team members. This guide will provide best practices for crafting meaningful commit messages, applicable in any Git environment, whether you're using a tool like Lazygit or the basic terminal.
 

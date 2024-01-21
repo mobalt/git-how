@@ -1,6 +1,7 @@
 ---
 tags:
   - panel/4
+  - fix/audit
 ---
 # Introduction
 Cherry-picking commits in Git allows you to selectively copy individual commits from one branch into another. This is particularly useful when you want to apply specific changes without merging all the changes from another branch. Lazygit simplifies this process with a user-friendly "copy-and-paste" model.

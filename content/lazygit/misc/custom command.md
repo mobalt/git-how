@@ -1,6 +1,7 @@
 ---
 tags:
   - panel
+  - fix/audit
 ---
 # Introduction
 Lazygit's custom command system offers a high degree of flexibility, allowing users to tailor their Git experience to their specific needs. This guide highlights how to define and use custom commands in Lazygit, using the example of emulating a built-in branch checkout action.

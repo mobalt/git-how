@@ -1,6 +1,7 @@
 ---
 tags:
   - panel/3
+  - fix/audit
 ---
 # Introduction
 This tutorial will guide you through the process of checking out a different branch in Git without losing your current changes. This is particularly useful when you need to switch branches but have uncommitted changes that you're not ready to commit.

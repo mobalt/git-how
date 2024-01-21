@@ -1,6 +1,7 @@
 ---
 tags:
   - panel/5
+  - fix/audit
 ---
 # Introduction
 This guide explains how to apply files from a stash in Lazygit without removing the stash entry. This method is useful for reapplying changes from a stash while keeping the stash intact for future use.

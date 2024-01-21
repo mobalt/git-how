@@ -1,6 +1,7 @@
 ---
 tags:
   - panel/4
+  - fix/audit
 ---
 # Introduction
 Understanding how to reset commits in Git is crucial for managing your project's history. This guide covers the process of resetting commits in Lazygit and explains the different types of resets: soft, mixed, and hard.
@@ -16,8 +17,6 @@ Understanding how to reset commits in Git is crucial for managing your project's
      - **Mixed Reset (`mixed`):** This will uncommit and unstage your changes, but the changes will still be there in your working directory. It's helpful when you want to redo the staging.
      - **Hard Reset (`hard`):** This completely undoes the commit and deletes all changes. Use this with caution as it permanently removes the work done in those commits.
 
-   ![Reset Options in Lazygit](ce5db05cc6172818ece03fc8f6e822c7_MD5.webp)
-   ![Example of Reset Process](Pasted image 20230722114854.png)
 
 3. **Selecting a Reset Type:**
    - Choose the appropriate reset type based on your need. Remember, 'hard' reset is irreversible and should be used carefully.

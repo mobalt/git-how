@@ -1,6 +1,7 @@
 ---
 tags:
   - panel/5
+  - fix/audit
 ---
 # Introduction
 This guide focuses on how to pop files from a stash using Lazygit. Popping a stash applies the changes in the stash to your workspace and, if there are no merge conflicts, automatically deletes the stash entry. This is a common operation when you want to reintegrate stashed changes and clean up the stash list.

@@ -1,6 +1,7 @@
 ---
 tags:
   - panel/4
+  - fix/audit
 ---
 # Introduction
 Modifying old commits to delete specific changes can be a tricky task in Git, especially when those changes impact subsequent commits. This tutorial will guide you through the process of removing a change from an old commit using Lazygit's patch functionality, which essentially performs an interactive rebase under the hood.

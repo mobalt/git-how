@@ -1,6 +1,7 @@
 ---
 tags:
   - panel/2
+  - fix/audit
 ---
 # Introduction
 This guide demonstrates how to add files to a stash using Lazygit. Stashing is useful for temporarily setting aside changes in your working directory.

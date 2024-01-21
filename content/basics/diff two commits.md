@@ -1,6 +1,6 @@
 ---
 tags:
-  - panel
+  - fix/audit
 ---
 # Introduction
 Comparing two commits is an essential task in Git to understand the differences between various stages of your project. This guide explains how to compare two commits using Lazygit, which provides a user-friendly interface for this comparison.

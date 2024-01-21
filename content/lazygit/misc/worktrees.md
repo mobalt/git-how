@@ -1,6 +1,7 @@
 ---
 tags:
   - panel
+  - fix/audit
 ---
 # Introduction
 Git worktrees are an advanced feature that allows you to work with multiple branches in separate working directories. This guide will explain how to manage worktrees using Lazygit and provide an overview of using worktrees in the basic terminal.

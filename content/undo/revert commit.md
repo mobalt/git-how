@@ -1,5 +1,7 @@
 ---
-
+tags:
+  - fix/audit
+---
 # Overview
 This tutorial explains how to undo changes from a specific past commit using Git's `revert` command and Lazygit's revert feature. Unlike other undo operations in Git, `revert` creates a new commit that undoes the changes made by a previous commit, keeping your project history intact.
 

@@ -1,6 +1,7 @@
 ---
 tags:
   - panel/4
+  - fix/audit
 ---
 # Introduction
 The Autosquash workflow in Git is a method for automatically squashing 'fixup' commits into their respective original commits. This workflow is particularly useful for making small amendments or corrections to your commit history without the need to manually rebase each time. Lazygit streamlines this process with intuitive keyboard shortcuts.

@@ -1,5 +1,7 @@
 ---
 title: How to tell you are in a Detached State
+tags:
+  - fix/audit
 ---
 # Introduction
 Understanding if you're in a detached HEAD state in Git is crucial for managing your repository's history and branches effectively. This state occurs when you check out a commit, tag, or remote branch that isn't associated with a local branch. In this tutorial, we'll cover how to recognize a detached HEAD state in Lazygit.

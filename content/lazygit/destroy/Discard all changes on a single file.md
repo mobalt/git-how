@@ -1,6 +1,7 @@
 ---
 tags:
   - panel/2
+  - fix/audit
 ---
 # Introduction
 Discarding changes in a specific file is a common requirement in version control management. This tutorial will guide you through discarding changes in a single file using Lazygit, a simple yet powerful Git interface.

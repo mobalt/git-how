@@ -1,3 +1,7 @@
+---
+tags:
+  - fix/audit
+---
 Creating and using Git aliases is a handy way to simplify and shorten commonly used Git commands. Git aliases allow you to define custom shortcuts for complex or frequently used commands. Here's a brief tutorial on how to create and use Git aliases:
 
 **Creating a Git Alias:**

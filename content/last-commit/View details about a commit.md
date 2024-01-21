@@ -1,8 +1,8 @@
 ---
 tags:
   - panel/4
+  - fix/audit
 ---
-
 # Introduction
 Viewing detailed information about a specific commit is an essential aspect of navigating and understanding your project's history in Git. Using Lazygit, you can easily explore the changes made in each commit. This guide will show you how to access and view these details within Lazygit.
 

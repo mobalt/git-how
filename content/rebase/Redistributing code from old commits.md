@@ -1,6 +1,7 @@
 ---
 tags:
   - panel/4
+  - fix/audit
 ---
 # Introduction
 Redistributing code from old commits is a sophisticated Git operation that allows you to rearrange changes made in your repository's history. This can be useful for cleaning up commits, separating features, or fixing mistakes. Lazygit provides a user-friendly interface to handle this process with custom patches.

@@ -1,6 +1,7 @@
 ---
 tags:
   - panel/2
+  - fix/audit
 ---
 # Introduction
 Resolving merge conflicts is a common task in version control. Lazygit provides an intuitive interface for addressing these conflicts. This guide will walk you through the process of resolving merge conflicts using Lazygit.

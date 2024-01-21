@@ -1,4 +1,7 @@
 ---
+tags:
+  - fix/audit
+---
 
 # Overview
 This tutorial will help you understand how to use Git's powerful `reflog` feature and Lazygit's undo capabilities. `git reflog` is often described as a magic time machine in Git. It's a lifesaver when you've made changes that you regret or want to revert. We'll also cover how to do similar actions in Lazygit, a simple terminal UI for Git commands.

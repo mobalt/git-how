@@ -1,5 +1,7 @@
 ---
 title: Point Your Branch Head at Any Arbitrary Commit
+tags:
+  - fix/audit
 ---
 # Introduction
 Performing a hard reset in Git allows you to point the HEAD of your branch to any arbitrary commit. This process is particularly useful when you need to discard changes and align your current branch with a specific state of the repository.

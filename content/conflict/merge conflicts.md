@@ -1,5 +1,6 @@
 ---
-sources: osg
+tags:
+  - fix/audit
 ---
 # Introduction
 Merge conflicts in Git occur when two branches have made edits to the same part of a file and Git is unable to automatically resolve these changes. Understanding how to address these conflicts is essential for smooth collaboration and maintaining a clean project history.

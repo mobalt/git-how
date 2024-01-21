@@ -1,6 +1,7 @@
 ---
 tags:
   - panel/2
+  - fix/audit
 ---
 # Introduction
 "Nuking" the working tree in Git is a term used to describe the action of removing all untracked files and resetting any changes made to tracked files in your working directory. This guide will explain how to perform this action in Lazygit.

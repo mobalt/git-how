@@ -1,7 +1,8 @@
 ---
 aliases:
   - I tried to rebase and now I have 1000 conflicts to fix
-sources: osg
+tags:
+  - fix/audit
 ---
 # Introduction
 Encountering numerous conflicts during a rebase can be daunting. This guide offers a systematic approach to address this situation, making the rebase process more manageable.

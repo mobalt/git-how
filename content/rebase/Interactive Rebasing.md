@@ -1,6 +1,7 @@
 ---
 tags:
   - panel/4
+  - fix/audit
 ---
 # Introduction
 Interactive rebasing in Git is a powerful feature that allows you to modify your commit history in various ways. It can be used to change commit messages, reorder commits, squash multiple commits into one, and more. This tutorial will guide you through the process of interactive rebasing using Lazygit, a simple and intuitive Git interface.

@@ -1,3 +1,7 @@
+---
+tags:
+  - fix/audit
+---
 # Introduction
 Adding a submodule in Git allows you to include and track another Git repository at a specific commit within your repository. This is particularly useful for including libraries, frameworks, or other shared components in your projects.
 

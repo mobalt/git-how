@@ -1,6 +1,7 @@
 ---
 tags:
   - panel/4
+  - fix/audit
 aliases:
   - Delete the old commit message, only keep new merged commit
 ---

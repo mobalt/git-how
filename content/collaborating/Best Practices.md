@@ -1,3 +1,7 @@
+---
+tags:
+  - fix/audit
+---
 # Introduction
 Adopting best practices in Git collaboration is crucial for maintaining an efficient and error-free workflow in software development projects. This guide will outline key best practices for collaborating with Git, applicable both when using tools like Lazygit and standard terminal commands.
 

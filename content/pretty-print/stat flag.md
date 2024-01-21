@@ -1,5 +1,7 @@
 ---
 title: Getting a Concise Summary of What Files Changed
+tags:
+  - fix/audit
 ---
 # Introduction
 This tutorial explains how to use the `--stat` flag in Git to obtain a concise summary of file changes, including the number of lines added or deleted. This flag can be particularly useful for a quick overview of changes without needing the full diff output.
