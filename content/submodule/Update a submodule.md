@@ -5,7 +5,7 @@ tags:
 # Introduction
 Updating a submodule is essential when you want to track the latest changes or a specific commit from the submodule's repository. This process involves fetching the latest changes and updating your working copy to point to a new commit within the submodule.
 
-# Lazygit: Updating a Submodule
+# Lazygit
 ## Step 1: Open Lazygit in Your Main Repository
 - Start Lazygit within the main Git repository that contains the submodule.
 

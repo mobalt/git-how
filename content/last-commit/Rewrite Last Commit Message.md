@@ -8,7 +8,7 @@ tags:
 # Introduction
 Changing the message of the most recent commit is a common task in Git, especially if you've made a typo or left out important information. This guide will show you how to amend the last commit message and also cover how to abort the process or undo the amendment if needed.
 
-# Git: Rewriting the Last Commit Message
+# Basic Terminal
 ## Step 1: Amend the Commit
 In your Git repository, use the following command to start amending your last commit:
 

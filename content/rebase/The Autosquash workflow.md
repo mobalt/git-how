@@ -25,8 +25,7 @@ Here's how to use the Autosquash workflow in Lazygit:
 4. **Observe the Modified Commits:**
    - After completing the squash, observe the modified commits in your history. The `fixup!` commits should now be merged into their respective original commits, as shown in ![[Pasted image 20230722131815.png]].
 
-# Vanilla Git
-In vanilla Git, the Autosquash workflow is also available, but it requires a bit more manual intervention:
+# Basic Terminal
 
 - Create a fixup commit using:
   ```bash

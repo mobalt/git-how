@@ -7,7 +7,7 @@ tags:
 # Introduction
 Checking out a specific commit in Git is a powerful feature that allows you to view the state of your repository at a particular point in its history. However, it's important to understand that this action detaches your `HEAD` from the current branch, putting you in a "detached HEAD" state. This guide will explain how to safely check out a specific commit using Lazygit, a user-friendly interface for Git.
 
-# Lazygit: Checking Out a Specific Commit
+# Lazygit
 ## Understanding Detached HEAD State
 Before proceeding, it's crucial to understand what a detached HEAD state means:
 - In this state, `HEAD` refers directly to a commit rather than a branch.

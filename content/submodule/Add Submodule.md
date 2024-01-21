@@ -5,7 +5,7 @@ tags:
 # Introduction
 Adding a submodule in Git allows you to include and track another Git repository at a specific commit within your repository. This is particularly useful for including libraries, frameworks, or other shared components in your projects.
 
-# Lazygit: Adding a Submodule
+# Lazygit
 ## Step 1: Open Lazygit in Your Repository
 - Launch Lazygit in your main Git repository where you want to add the submodule.
 

@@ -6,7 +6,7 @@ tags:
 # Introduction
 Viewing detailed information about a specific commit is an essential aspect of navigating and understanding your project's history in Git. Using Lazygit, you can easily explore the changes made in each commit. This guide will show you how to access and view these details within Lazygit.
 
-# Lazygit: Viewing Commit Details
+# Lazygit
 ## Step 1: Select the Commit
 In the **Commits** window of Lazygit:
 1. Hover over the commit you're interested in.
@@ -25,7 +25,7 @@ To go back to the list of commits:
 - Simply press `Escape`.
 - This will return you to the **4. Commits** window where you can continue to browse through other commits.
 
-# Basic Terminal: Viewing Commit Details
+# Basic Terminal
 If you prefer to use the command line without Lazygit, you can view details about a commit using Git commands:
 
 1. **Find the Commit Hash**: Use `git log` to find the hash of the commit you want to inspect.

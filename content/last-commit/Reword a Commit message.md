@@ -7,7 +7,7 @@ tags:
 # Introduction
 Sometimes after committing, you might realize that the commit message could be clearer or more descriptive. Rewording a commit message is a straightforward task in Git, and Lazygit offers an even simpler way to do it. This guide will show you how to reword a commit message using Lazygit, enhancing your commit history's clarity and understanding.
 
-# Lazygit: Rewording a Commit Message
+# Lazygit
 ## Step 1: Hover Over the Commit
 In Lazygit, navigate to the commit you want to reword. You can use the arrow keys to move through the commit history.
 
@@ -26,7 +26,7 @@ Lazygit provides two options for rewording a commit message:
 - **Local Commits Only**: Like amending, you should only reword commits that haven't been pushed to a public/shared branch to avoid complications in the shared repository history.
 - **Impact on Commit Hash**: Rewording a commit will change its commit hash. Be aware of this if you're referencing commits by their hash in other places.
 
-# Basic Terminal: Rewording a Commit Message
+# Basic Terminal
 If you're not using Lazygit or prefer the classic command-line approach, here's how to reword a commit message in the terminal using Git.
 
 ## Rewording the Most Recent Commit

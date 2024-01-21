@@ -7,7 +7,7 @@ tags:
 # Introduction
 Amending an old commit is a useful technique in Git to revise history by modifying a previous commit. This guide will walk you through how to amend an older commit using Lazygit, a simple terminal UI for Git commands. Remember, amending commits that are already pushed to a public repository can cause issues for others who are using the same repository, so it's best used for local changes.
 
-# Lazygit: Amending an Old Commit
+# Lazygit
 ## Step 1: Access the Files Panel
 Begin by accessing the Files panel in Lazygit:
 1. Press `2` to go to [[2. Files]].
