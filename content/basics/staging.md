@@ -1,60 +1,90 @@
 ---
 title: Staging all files, specific files, and specific lines
 ---
-This guide focuses on how to partially stage files – a process that allows you to select specific changes in a file to include in your next commit. This is particularly useful for breaking up large sets of changes into smaller, more manageable commits.
+# Overview
+This tutorial will walk you through the process of staging changes in your Git repository using Lazygit. You'll learn how to stage all files, stage entire files, and even stage specific lines within a file. This granular control can help you organize your commits effectively, especially when dealing with large changes.
 
 # Lazygit
 ## Step 1: Navigate to Files Panel
-Start by opening the Files panel in Lazygit to view your file changes:
+To start, you need to view your file changes in Lazygit:
 1. Press `2` to switch to the [[2. Files]] panel.
-2. Use `↓`/`↑` keys, to navigate through the list of changed files.
+2. Navigate through your files using the `↓`/`↑` keys or the mouse.
 
 ## Option 1: Stage All Changes
-Sometimes, you're in a rush, and just want to stage all your changes into the next commit.
-3. Press `a`, to toggle between staging *(green)* and unstaging *(red)* all files.
+To quickly stage all your changes:
+1. Press `a` to toggle all files between staged (green) and unstaged (red) status.
 
 ## Option 2: Stage Entire Files
-3. Use `spacebar`(or `click`) to toggle between
-    1. *(green)* Add entire file to Stage
-    2. *(red)* Remove entire file from Stage
+To stage or unstage entire files:
+1. Highlight the file using the `↓`/`↑` keys.
+2. Press `spacebar` (or `click`) to toggle its status:
+   - Green: The file is staged.
+   - Red: The file is unstaged.
 
-- [ ] Add #screenshot of Files panel with multiple staged and unstaged files
-## Option 3: Stage only Specific Lines
-Sometimes you want to partially stage files – a process that allows you to select specific changes in a file to include in your next commit. This is particularly useful for breaking up large sets of changes into smaller, more manageable commits.
+- [ ] Add #screenshot of Files panel showing both staged and unstaged files.
 
+## Option 3: Stage Specific Lines
+For more control, you can stage specific lines within a file:
 ### Step 3: Select File to Partially Stage
-Once in the Files panel, choose a file to partially stage:
-1. Highlight the desired file by navigating to it.
-2. Press `enter` to drill down into the selected file. This will shift focus to the **Main Area**.
+1. In the Files panel, navigate to and highlight your desired file.
+2. Press `enter` to open the file's **Main Area**.
 
 ### Step 4: Stage/Unstage Changes in Main Area
-In the Main Area, you will encounter two key panes:
-- **Unstaged Changes**: Displays lines of code that have not been staged yet.
-- **Staged Changes**: Shows lines of code that have already been staged.
+The Main Area is divided into two panes:
+- **Unstaged Changes**: Shows lines not yet staged.
+- **Staged Changes**: Displays lines currently in stage.
 
-Use `tab` to toggle focus between these two panes, to selectively stage or unstage changes.
+Toggle focus between these panes using `tab`.
 
 #### Unstaged Changes Panel
-Use the following keys:
-  - `space` - to stage a line.
-  - `d` - to delete a line ***permanently***.
-	  - Useful for removing accidental changes like a stray `console.log`.
-  - `a` - to stage an entire hunk.
-  - Press `v` then use `up/down` to select multiple lines, and `space` to stage them.
-  - Use `right/left` to navigate between hunks.
+- `space`: Stage a line.
+- `d`: Delete a line permanently (use with caution).
+- `a`: Stage an entire hunk.
+- `v` + `up/down`: Select multiple lines; `space` to stage them.
+- `right/left`: Navigate between hunks.
+
 >[!warning]
-> Be cautious when permanently deleting lines using `d` in the **Unstaged Changes** pane. This action cannot be undone and might lead to loss of important code.
+> The `d` key permanently deletes lines. Use it carefully to avoid losing important code.
 
 #### Staged Changes Panel
-Use the following keys:
-  - `space` or `d` - to unstage a line.
-  - `a` - to unstage an entire hunk.
-  - Press `v` then use `up/down` to select multiple lines, and `space` to unstage them.
-  - Use `right/left` to navigate between hunks.
+- `space` or `d`: Unstage a line.
+- `a`: Unstage an entire hunk.
+- `v` + `up/down`: Select multiple lines; `space` to unstage them.
+- `right/left`: Navigate between hunks.
 
 ### Step 5: Monitor File Status
-As you stage and unstage changes, notice the status of the file in the [[2. Files]] panel. A partially staged file is indicated by an `MM` status, colored red then green.
+Watch the file status in the [[2. Files]] panel. A file with both staged and unstaged changes shows an `MM` status, with red and green colors.
 
+# Basic Terminal
+To achieve similar staging tasks in the basic terminal, you can use the following Git commands:
+
+1. **Stage All Changes**
+   ```bash
+   git add .
+   ```
+
+2. **Stage Specific Files**
+   ```bash
+   git add <filename>
+   ```
+
+3. **Stage Specific Lines (Interactive Staging)**
+   ```bash
+   git add -p <filename>
+   ```
+   - This command opens an interactive session where you can choose specific hunks or lines to stage.
+
+4. **Unstage Files**
+   ```bash
+   git reset HEAD <filename>
+   ```
+   - This command unstages files without discarding changes.
+
+5. **Check Status**
+   ```bash
+   git status
+   ```
+   - Use this to monitor the staging status of your files.
 
 # Conclusion
-Partially staging files in Lazygit is a powerful feature that provides granular control over what changes go into your commits. This allows for a cleaner, more organized commit history. Remember, careful staging can make a significant difference in maintaining a clear and manageable Git history.
+Mastering staging in Lazygit and the basic terminal allows for precise control over your commits. It's crucial for maintaining a clean and organized Git history. Practice these commands to enhance your version control workflow.
