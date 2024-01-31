@@ -11,10 +11,10 @@ lazygit
 
 # Lazygit UI
 Now you will see the lazygit UI. It will look something like this:
-- [ ] #screenshot of lazygit UI
+![[lg_main_ui.png]]
 
 You'll notice there are 5 panels on the left third, and then a main section on the right.
-- [ ] #wireframe of 5 panels on left third, main section on right 2/3.
+![[lg_main_ui_with_labels.png]]
 
 The 5 Left Panels are:
 1. Status
@@ -49,22 +49,20 @@ Inside all panels, you can do the following actions:
 
 ### Mouse
 Also, the mouse works. Click on any panel or item, to jump focus to it. Double-click to do the **default action** *(as per above)*.
-
-- [ ] Add #svg of cute mouse icon.
+![[mouse_holding_mouse.png]]
 
 ## Main Section *(Context-Aware)*
 The main section is context-dependent, and the information it shows you will depend on what you focused on in the left panels.
 
 So for example, if you are focused on **2. Files** panel, and you move the cursor over a file.
 - If the file is staged, then the main section will show one panel **"Staged changes"** with a diff of what you will be committing.
-  - [ ] #screenshot of "Staged changes" panel
+  ![[lg_main_staged.png]]
 
 - If the file is unstaged, then the main section will show one panel **"Unstaged changes"** with a diff of what you have changed since your last commit.
-  - [ ] #screenshot of "Unstaged changes" panel
+  ![[lg_main_unstaged.png]]
 
 - If the file is partially staged, then the main section will show two panels **"Unstaged changes"** and **"Staged changes"** each with a corresponding diff.
-  - [ ] #screenshot of "Staged changes" and "Unstaged changes" panels
-
+![[lg_main_staged_n_unstaged.png]]
 # Suggested Workflow for Learning Lazygit
 1. The concepts and shortcuts above are the **minimal set** of knowledge you need to **memorize** to use lazygit comfortably. But once you do, lazygit will rock your world and will become your daily driver for git.
 2. For the rest of the tasks in lazygit, don't make a concerted effort to memorize them. Just keep a tab open to this site, and look up stuff as needed. Do them enough times, and you'll naturally develop muscle memory for them. After a while, you'll find yourself using lazygit for more and more tasks, and you'll find yourself looking up stuff less and less.
