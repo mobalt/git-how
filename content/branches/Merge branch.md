@@ -9,6 +9,7 @@ This is a guide on how to merge a branch called **"featureA"** into **"main"** b
 ---
 title: Merge featureA into main
 ---
+%%{init: { 'logLevel': 'debug', 'theme': 'base' } }%%
 gitGraph
    commit id: "main-1"
    commit id: "main-2"
@@ -21,6 +22,7 @@ gitGraph
    commit id: "main-3"
    commit id: "main-4"
 ```
+
 # Lazygit
 1. Go to the [[3. Local Branches]] panel.
 	- Press `3`.
