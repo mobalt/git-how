@@ -5,16 +5,36 @@ tags:
 # Introduction
 This is a guide on how to merge a branch called **"featureA"** into **"main"** branch.
 
-
+```mermaid
+---
+title: Merge featureA into main
+---
+gitGraph
+   commit id: "main-1"
+   commit id: "main-2"
+   branch featureA
+   checkout featureA
+   commit id: "feat-1"
+   commit id: "feat-2"
+   checkout main
+   merge featureA id: "Merge"
+   commit id: "main-3"
+   commit id: "main-4"
+```
 # Lazygit
-1. Press `3`  to go to [[3. Local Branches]] panel
-2. Press `↓`/`↑` (or `single click`) to hover over **"main"** branch
-3. Press `space` (or `double click`) to checkout **"main"** branch
-4. Press `↓`/`↑` (or `single click`) to hover over **"featureA"** branch
-5. Press `Shift+M` to merge **"featureA"** into **"main"** branch
-6. Upon confirmation prompt, press `enter` to continue or `esc` to cancel
-    - [ ] Add #screenshot of merge confirmation prompt
-7. Resolve any [[merge conflicts]], if any.
+1. Go to the [[3. Local Branches]] panel.
+	- Press `3`.
+2. Hover over the **"main"** branch.
+	- Use the `↓`/`↑` keys or a `single click`.
+3. Checkout the **"main"** branch.
+	- Press `space` or use a `double click`.
+4. Hover over the **"featureA"** branch.
+	- Use the `↓`/`↑` keys or a `single click`.
+5. Merge the **"featureA"** branch into the **"main"** branch.
+	- Press `Shift+M`.
+6. When prompted for confirmation, continue by pressing `enter` or cancel with `esc`.
+7. If there are any [[merge conflicts]], resolve them.
+
 
 # Basic Terminal
 1. First checkout the base branch, in this case **main**
