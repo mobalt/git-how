@@ -11,17 +11,17 @@ Follow these steps to cherry-pick commits in Lazygit:
 
 1. **Select Source Commit:**
    - Open Lazygit in your repository.
-   - Navigate to the **Branches** panel by pressing `2`.
+   - Navigate to the **\[3] Local Branches** panel by pressing `3`.
    - Scroll to the source branch (the one containing the commit(s) you wish to cherry-pick) and press `enter` to switch to the commits panel.
-   - Scroll to the desired commit(s) and press `c` to copy each commit you want to cherry-pick. Copied commits will be highlighted, as shown in the image ![[Pasted image 20230722115941.png]].
+   - Scroll to the desired commit(s) and press `C` (shift+c) to copy each commit you want to cherry-pick. Copied commits will be highlighted, as shown in the image ![[Pasted image 20230722115941.png]].
 
 2. **Switch to Target Branch:**
    - Press `esc` to return to the **Branches** panel.
-   - Ensure the target branch (the one you want to cherry-pick the commits into) is checked out. It should have a `*` next to it. If it's not checked out, use `space` to select and check it out.
+   - Ensure the target branch (the one you want to cherry-pick the commits into) is checked out. It should have a `*` to the left of it. If it's not checked out, use `space` to select and check it out.
 
 3. **Paste Commits:**
-   - Navigate to the **Commits** panel by pressing `1`.
-   - Press `v` to paste the cherry-picked commits onto the target branch. The cherry-pick action will be applied, as demonstrated in the image ![[Pasted image 20230722120059.png]].
+   - Navigate to the **\[4] Commits** panel by pressing `4`.
+   - Press `V`(shift+v) to paste the cherry-picked commits onto the target branch. The cherry-pick action will be applied, as demonstrated in the image ![[Pasted image 20230722120059.png]].
 
 # Basic Terminal
 To perform cherry-picking in the terminal:
